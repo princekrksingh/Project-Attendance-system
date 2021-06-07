@@ -58,5 +58,5 @@ The front-end will display all the data and allow you to seek for individual dat
 
 * [Prince Kumar]
 * [Sunil Yadav]
-* [Govin Tripathi]
-* [Rahul Sekhawat]
+* [Govind Tripathi]
+* [Rahul Shekhawat]
