@@ -38,7 +38,7 @@ At the end you get for every day and every employee a *record* with:
 ## How does it work?
 
 We take the camera's feed. A first model will detect id there is faces on it and where.
-A seconde model will make the match with all the face that are in the system.
+A second model will make the match with all the face that are in the system.
 When the model have extracted all the information from each frame, it send it to the API.
 The API will send the data to the database.
 The web app will send request to the API. The API will take information asked in the DB and send it to the front-end.
