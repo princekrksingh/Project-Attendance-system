@@ -4,7 +4,7 @@
 
 **Python version:** `Python 3.6.8`
 
-For this project, we used `virtualenv` as environment.
+For this project, we used `Conda environment` as environment.
 You can find it in `API/env`.
 You can **activate** it with: 
 ```bash
@@ -15,30 +15,21 @@ and **disable** it with:
 $ deactivate
 ```
 
-## Python decencies
+## Python Conda Environments
 
-You can install all the dependencies with:
-```bash
-$ pip3 install -r requirements.txt
-```
-Be carefull to have `CMake` installed before trying to install `face_recognition`. You can install it with 
-```bash
-$ pip3 install CMake
-```
+You can install all the dependencies using conda.
+How to create env in conda?
+Here is the [link](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-with-commands).
 
 
 ## How to use it
 
-There are two components in the backend: `app.py` and `get_name_from_camera_feed.py`.
+There are two components in the backend: `app.ipynb` and `camerafeed.ipynb`.
 
-* **app.py:** This is the API itself, it handle routes. You can run it with:
-```bash
-$ python3 app.py
-```
+* **app.ipynb:** This is the API itself, it handle routes. You can run it with jupyter notebook.
 
-* **get_name_from_camera_feed.py:** This is the algorithm that read the video feed and apply face recognition. You can run it 
-with:
-```bash
-$ python3 get_name_from_camera_feed.py`
-```
+
+* **camerafeed.ipynb:** This is the algorithm that read the video feed and apply face recognition. You can run it 
+with Jupyter notebook.
+
 By default it will select the camera of your computer, but you can change it by any video feed, just change the value of `video_capture = VideoCapture(0)` 0 is the prinary webcam of your computer. You can also add multiple feeds.
