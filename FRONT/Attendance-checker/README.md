@@ -1,4 +1,4 @@
-# Front-end of late-checker
+# Front-end of Attendance-checker
 
 ## What is it?
 
@@ -15,15 +15,15 @@ In this **ReactJs** web-app, we used:
 To run the project you will need to have node installed on your computer.
 Then you need to **install all the decencies**. For that, just launch in your terminal:
 
-```bash
-sudo npm install
+```Git bash
+npm install
 ```
 *Notes: This will run a **development** version and this is **not optimized for the production**.*
 
 When everything is installed, you can simply **run the app** and a tab be opened in your default browser.
 To **run the app**, just type this in your terminal:
 
-```bash
+```Git bash
 npm start
 ```
 
