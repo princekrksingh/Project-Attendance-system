@@ -21,8 +21,8 @@ At the end you get for every day and every employee a *record* with:
 * [Video Link](https://drive.google.com/file/d/1-Nd0vg7qTvh3ny9g4okPQcgJvQ9HrvVl/view)
 
 ## More details
-* [Back-end details](API/README.md)
-* [Front-end details](FRONT/late-checker/README.md)
+* [Back-end details](BACKEND/README.md)
+* [Front-end details](FRONT/Attendance-checker/README.md)
 
 ## Screenshot
 ![screenshot of the web app](assets/screenshot-webapp.png)
