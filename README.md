@@ -5,7 +5,7 @@
 ## Description
 
 **Attendance Checker** is a web app with AI that automate attendance record.
-It will detect evey face that came in the range of the camera and compare it with the all the employees
+It will detect every face that came in the range of the camera and compare it with the all the employees
 in the system. Then it will automatically update the arrival or departure time in the database.
 At the end you get for every day and every employee a *record* with:
 * Name
@@ -31,7 +31,7 @@ At the end you get for every day and every employee a *record* with:
 
 * You can see the video feed that record people that leave or come in the room.
 * You can search for an employee to check the time of his time of arrival and departure.
-* You can check the keep a screenshot of every arrival or departure.
+* You can check and keep a screenshot of every arrival or departure.
 * You can add an employee in the system with a single picture.
 * You can delete an employee of the system.
 * You can fastly see the 5 last employee detected by the camera.
@@ -39,7 +39,7 @@ At the end you get for every day and every employee a *record* with:
 
 ## How does it work?
 
-We take the camera's feed. A first model will detect id there is faces on it and where.
+We take the camera's feed. A first model will detect if there is faces on it and where.
 A second model will make the match with all the face that are in the system.
 When the model have extracted all the information from each frame, it send it to the API.
 The API will send the data to the database.
