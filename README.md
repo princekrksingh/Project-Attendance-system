@@ -17,6 +17,9 @@ At the end you get for every day and every employee a *record* with:
 * Is he late?
 * Has he left early?
 
+## Demo Video 
+* [Video Link](https://drive.google.com/file/d/1-Nd0vg7qTvh3ny9g4okPQcgJvQ9HrvVl/view)
+
 
 ## More details
 * [Back-end details](API/README.md)
