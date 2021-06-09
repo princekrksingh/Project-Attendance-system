@@ -5,15 +5,8 @@
 **Python version:** `Python 3.6.8`
 
 For this project, we used `Conda environment` as environment.
-You can find it in `API/env`.
-You can **activate** it with: 
-```bash
-$ source env/bin/activate
-```
-and **disable** it with:
-```bash
-$ deactivate
-```
+
+
 
 ## Python Conda Environments
 
