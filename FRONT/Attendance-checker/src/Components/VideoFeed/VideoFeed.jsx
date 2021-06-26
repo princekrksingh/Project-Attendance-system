@@ -23,14 +23,14 @@ const VideoFeed = () => {
 				<h2>Video Feed</h2>
                 <iframe allowFullScreen
                         title = 'camera feed'
-                        webkitallowfullscreen="true"
-                        mozallowfullscreen="
-                        true"
+                        webkitallowfullscreen
+                        mozallowfullscreen
 			// !!! TO CHANGE !!!
-                        src="http://127.0.0.1:5000/receive_data"
+                        src='http://10.104.176.58:8080/video'
                         frameBorder="0"
                         width="100%"
-                        height="576" />
+                        height="576" >
+                </iframe>        
 			</VideoFeedSection>
     );
 };
