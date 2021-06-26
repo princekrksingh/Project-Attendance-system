@@ -25,8 +25,8 @@ const LastArrivalItems = props => {
     return (
             <OneResult>
                 <UlList>
-                    <ListItem><b>Date:</b> <i>{ props.result[1] } </i></ListItem>
-                    <ListItem><b>Name:</b> <i>{ props.result[2] } </i></ListItem>
+                    <ListItem><b>Name:</b> <i>{ props.result[1] } </i></ListItem>
+                    <ListItem><b>Location:</b> <i>{ props.result[2] } </i></ListItem>
                     <ListItem><b>Arrival time:</b> <i>{ props.result[3] } </i></ListItem>
                     <ListItem><b>Departure time:</b> <i>{ props.result[5] } </i></ListItem>
                     <ListItem><b>Is late: </b> <i>{ props.result[6] ? 'Yes' : 'No' } </i></ListItem>
