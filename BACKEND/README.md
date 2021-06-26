@@ -12,9 +12,11 @@ For this project, we used `Conda environment` as environment.
 
 You can install all the dependencies using conda.
 How to create env in conda?
-Step 1: [Download Anaconda](https://www.anaconda.com/products/individual) and [create an environment](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file) by using my [environment.yml](https://drive.google.com/file/d/1ONgvHnECZ1pH66tMleVz0BUCh4nUH0Ev/view?usp=sharing) file.
+
+#Step 1: [Download Anaconda](https://www.anaconda.com/products/individual) and [create an environment](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file) by using my [environment.yml](https://drive.google.com/file/d/1ONgvHnECZ1pH66tMleVz0BUCh4nUH0Ev/view?usp=sharing) file.
 Note:Download yml file first.
-Step2: Now activate environment using conda activate env_name
+
+#Step2: Now activate environment using conda activate env_name
 
 Here is the [link](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-with-commands) for other helpful commands.
 
